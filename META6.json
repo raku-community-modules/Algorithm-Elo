@@ -1,13 +1,29 @@
 {
-    "perl": "6.*",
-    "name": "Algorithm::Elo",
-    "license" : "MIT",
-    "version": "0.1.0",
-    "description": "Implementation of the Elo chess rating system",
-    "author": "Rob Hoelz",
-    "depends": [],
-    "provides" : {
-        "Algorithm::Elo" : "lib/Algorithm/Elo.pm"
-    },
-    "source-url": "https://github.com/hoelzro/p6-algorithm-elo.git"
+  "auth": "zef:community-modules",
+  "authors": [
+    "Rob Hoelz",
+    "Raku Community"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Implementation of the Elo chess rating system",
+  "license": "MIT",
+  "name": "Algorithm::Elo",
+  "perl": "6.*",
+  "provides": {
+    "Algorithm::Elo": "lib/Algorithm/Elo.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/Algorithm-Elo.git",
+  "tags": [
+    "ELO",
+    "CHESS",
+    "RATING"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.1.1"
 }
