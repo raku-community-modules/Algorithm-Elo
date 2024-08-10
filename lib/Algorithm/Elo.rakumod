@@ -1,12 +1,10 @@
-unit module Algorithm::Elo;
-
 my constant $k = 32;
 
 my sub do-it(Int:D $delta) {
     1 / (1 + (10 ** ($delta / 400)));
 }
 
-our sub calculate-elo(
+my sub calculate-elo(
   Int:D  $left,
   Int:D  $right,
   Bool  :left($left-wins),

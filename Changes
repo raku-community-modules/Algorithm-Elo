@@ -1,4 +1,6 @@
 Revision history for Algorithm::Elo
 
 {{$NEXT}}
-    - Initial version
+
+0.1.1  2024-08-10T16:56:33+02:00
+    - Initial version as a Raku Community Module
